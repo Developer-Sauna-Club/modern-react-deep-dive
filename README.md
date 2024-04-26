@@ -1,6 +1,9 @@
 # 🧡 모던 리액트 딥다이브 스터디
-
+<a href="https://www.youtube.com/channel/UCD8fqICz1Q2Jo7kOS6IHd8g">
 <img src="https://github.com/KJ-StudyWithMe/modern-react-deep-dive/assets/104294861/664879a5-9c2f-47ba-9f5f-cac72ea8628f" width="600px" alt="스터디 표자" />
+</a>
+
+- 이미지 클릭시 스터디 발표 동영상이 업로드된 유튜브로 이동합니다.
 
 ## 🕓 스터디 시간
 
