@@ -8,7 +8,7 @@ function App() {
   }
 
   useEffect(() => {
-    console.log('effect 확인!', count)
+    console.log('effect 확인!')
 
     function addMouseEvent() {
       console.log('event 감지 effect 실행', count)
@@ -16,11 +16,11 @@ function App() {
 
     window.addEventListener('click', addMouseEvent)
 
-    // return () => {
-    //   //이래서 클린업 함수가 필요하구나
-    //   console.log('클린업 함수 실행', count)
-    //   window.removeEventListener('click', addMouseEvent)
-    // }
+    return () => {
+      console.log('클린업 함수 실행', count)
+
+      window.removeEventListener('click', addMouseEvent)
+    }
   }, [count])
 
   return (
